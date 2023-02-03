@@ -3,5 +3,12 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	const int SIZE = 10;
+	short mas[SIZE];
+	short i;
+	for (i = 0; i < 10; i++) {
+		mas[i] = i + 1;
+		cout << mas[i] << ' ';
+	}
+
 }
